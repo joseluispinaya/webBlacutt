@@ -1,0 +1,278 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitePage.master.cs" Inherits="CapaPresentacion.SitePage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Sociedad Agricola Industrial Blacutt Hnos. S.R.L. | Exportadores de Almendra Amazónica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Empresa boliviana con más de 30 años de experiencia en recolección, procesamiento y exportación de almendras amazónicas (Brazil Nuts). Calidad, sostenibilidad y compromiso internacional." />
+    <meta name="keywords" content="almendra amazónica, brazil nuts, exportación, empresa boliviana, Blacutt Hnos, sostenibilidad, frutos secos, procesamiento de castaña, almendra Bolivia, empresa agrícola industrial" />
+    <meta name="author" content="Sociedad Agrícola Industrial Blacutt Hnos. S.R.L." />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Open Graph para redes sociales -->
+      <meta property="og:title" content="Sociedad Agrícola Industrial Blacutt Hnos. S.R.L." />
+      <meta property="og:description" content="Exportadores de almendras amazónicas desde Bolivia con más de 30 años de experiencia." />
+      <%--<meta property="og:image" content="https://tusitio.com/img/icon/logobl.png" />
+      <meta property="og:url" content="https://tusitio.com" />
+      <meta property="og:type" content="website" />--%>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        rel="stylesheet" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+        rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/chatbot.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>Riberalta-Beni-Bolivia</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Disponible 24/7</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <div id="google_translate_element"></div>
+            <!-- <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+591 000000</small> -->
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>           
+            <a class="btn btn-sm-square bg-white text-primary me-0" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="Default.aspx" class="navbar-brand p-0">
+        <img class="img-fluid me-3" src="img/icon/logobl.png" alt="Logotipo de Blacutt Hnos. SRL" />
+        <h1 class="m-0 text-primary">Blacutt Hnos. S.R.L.</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="Default.aspx" class="nav-item nav-link active">Home</a>
+          <a href="About.aspx" class="nav-item nav-link">About</a>
+          <a href="Products.aspx" class="nav-item nav-link">Products</a>
+          <a href="Contact.aspx" class="nav-item nav-link">Contacts</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <asp:ContentPlaceHolder ID="body" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>222 Av. Atancio Jordan
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+591 71111212
+            </p>
+            <p class="mb-2">
+              blacutthermanossrl@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="#"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="#">About Us</a>
+            <a class="btn btn-link" href="#">Contact Us</a>
+            <a class="btn btn-link" href="#">Our Services</a>
+            <a class="btn btn-link" href="#">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Popular Links</h5>
+            <a class="btn btn-link" href="#">About Us</a>
+            <a class="btn btn-link" href="#">Contact Us</a>
+            <a class="btn btn-link" href="#">Our Services</a>
+            <a class="btn btn-link" href="#">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>Download our catalog for more information.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <button
+                type="button"
+                id="btnDownload"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Blacutt Hnos.</a>, All
+              Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://htmlcodex.com"
+                >ZeroByte</a
+              >
+              <br />Distributed By:
+              <a href="https://themewagon.com" target="_blank">ZeroDev</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- <button id="chatButton">Iniciar Chat</button> -->
+    <button id="chatButton">
+      <img src="img/bot1.png" alt="Almendras amazónicas listas para exportación" style="height: 80px; max-width: 70px;">
+      Hi
+    </button>
+
+    <!-- Chatbot -->
+        <div class="chat-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+            <div class="chat-header">
+                Chatbot de Informacion
+                <button id="closeChat">✖</button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message visible">
+                    ¡Hola! ¿En qué puedo ayudarte hoy?
+                </div>
+            </div>
+
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Escribe tu mensaje..." />
+                <button id="btnenviar">
+                    <i id="btn-icon" class="fas fa-paper-plane"></i>
+                    <span id="btn-loading">...</span>
+                </button>
+            </div>
+        </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'es,en,fr,it,de,pt',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    </script>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script src="js/index.js"></script>
+    <asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+{
+  "Company": "SOCIEDAD AGRÍCOLA INDUSTRIAL BLACUTT HNOS. S.R.L.",
+  "HistoricalOverview": "The company was founded in 1988 under the name LOURDES REVICMAR (Lourdes, Rene Víctor, Mario), whose partnership remained for two years, 1988 and 1989. It was located on Avenida Beni Mamore, operating with 60 machines, processing up to 5,000 kilos of Brazil nuts per day. External services from Hecker company were used for pre-cooking and box sealing processes, while roasting and sorting were performed by Lourdes company. On September 15, 1991, the corporate name changed to SOCIEDAD AGRICOLA INDUSTRIAL BLACUTT HNOS. S.R.L., a partnership between Víctor, María, and their four children (Víctor, Edgar, John, and David). The company moved to Pueblo Nuevo neighborhood on Avenida Atanasio Jordán, with 300 machines processing 18,000 kg per day, covering the entire processing cycle within the same company. In 2007, the project began to renovate the final processing facilities, considering international requirements and placing the company at the forefront in the supply of quality products with highly qualified personnel. Currently, SOCIEDAD AGRICOLA INDUSTRIAL BLACUTT HNOS. S.R.L. holds the FSSC 22000 V6 certification, NOP-USDA Organic Certification extended to Canada, and KOSHER certification.",
+  "Mission": "We are a company dedicated to processing Brazil Nuts, providing a safe, high-quality product to our international buyers, ensuring training and continuous improvement with all our workers.",
+  "Vision": "To be a recognized company in Brazil Nut exports with quality and safety standards based on international regulations, respecting the environment and working continuously on corporate social responsibility.",
+  "Values": {
+    "Integrity": "Our behavior reflects the highest levels of ethics and responsibility in facing the organization's challenges. Our commitment is clear and 100% focused on the benefit of the company and social responsibility.",
+    "FlexibilityAndAdaptation": "We understand that change is the only constant; we not only adapt but also drive change to ensure continuous improvement."
+  },
+  "QualityPolicies": "Sociedad Agrícola Blacutt Hnos. S.R.L. is committed to processing Amazon Brazil Nuts with quality and safety standards, complying with legal regulations in our territory and where our product is marketed. We establish effective and constant communication with our internal and external clients to guarantee continuous improvement. Senior Management commits to constantly guarantee and improve the food safety system according to the following objectives: Maintain effective communication with staff and management, as well as appropriate communication with clients to ensure continuous improvement of our food safety management system. Comply with all customer requirements, specifications, legal and environmental provisions applied to our product. Ensure compliance with cleaning and disinfection programs to guarantee the safety of the nuts. Maintain equipment and infrastructure maintenance programs in accordance with accreditation standards. Have qualified personnel continuously trained in food safety standards. Establish social and environmental responsibility within the city of Riberalta.",
+  "CollectionProcess": [
+    "Trail opening: This activity is very important because it facilitates the deployment of the workforce towards the Brazil nut trees and helps prevent snake hazards. It consists of opening or cleaning the trails.",
+    "Nut gathering: This work consists of accumulating Brazil nut pods in a designated area.",
+    "Shell breaking: Cutting the pods, selecting the nuts, and placing them in bags.",
+    "Transport: Transporting the nuts to storage centers located in strategic points that facilitate collection."
+  ],
+  "RegulationsCertifications": [
+    "Agricultural Health and Food Safety Law (SENASAG Sanitary Registration).",
+    "National Phytosanitary Production Registration for Export Products.",
+    "Manufacturing Sector Industrial Regulation Law 1333 on Environment."
+  ],
+  "Harvest": [
+    "Collection: Gatherers store nuts in bags for about one to two weeks.",
+    "Sales: Gatherers negotiate prices with suppliers, farmers, and intermediaries before and during the harvest season.",
+    "Sale to processing companies: Gatherers, suppliers, indigenous communities, farmers, and intermediaries offer the nuts to processing companies."
+  ],
+  "Advantages": [
+    "One of our core values that sets us apart in the international market is our ecological approach and preservation of the Amazon rainforest. It is an organic, eco-friendly product that contributes to conserving the Brazil nut trees, which in turn helps preserve the Amazon rainforest and prevents deforestation.",
+    "The export of Amazon Brazil nuts is the main income-generating activity for over 70,000 families throughout the Amazon region and accounts for about seventy-five percent of the economically active population of the region, promoting corporate social responsibility.",
+    "High nutritional value.",
+    "Because the trees grow naturally, the product does not contain pesticides or other chemicals during growth or harvest."
+  ],
+  "ExportOffer": "Our company has the capacity to produce 100 containers per harvest season, each containing 800 boxes (each box weighs 44 pounds), in the following types: Medium, Midget, Tiny, Chipped, Broken, Broken D, and Broken 7.",
+  "ProductClassification": [
+    {
+      "Type": "Medium",
+      "Definition": "Whole first-quality nuts, medium size, no chipping. Kernel count per pound: 110 to 130. Moisture: 2–4%."
+    },
+    {
+      "Type": "Midget",
+      "Definition": "Whole first-quality nuts, medium size, no chipping. Kernel count per pound: 160 to 180. Moisture: 2–4%."
+    },
+    {
+      "Type": "Tiny",
+      "Definition": "Whole first-quality nuts, small size, no chipping. Kernel count per pound: 180 or more. Moisture: 2–4%."
+    },
+    {
+      "Type": "Chipped",
+      "Definition": "Shelled, dehydrated nuts of all sizes that sustained slight physical damage during processing (chipped without losing natural shape). Size must be larger than 3/4 of a whole nut. 5% tolerance for Broken category. Moisture: 2–4%."
+    },
+    {
+      "Type": "Broken",
+      "Definition": "Broken nuts, equal to or less than 50% of a whole nut. Moisture: 2–4%."
+    },
+    {
+      "Type": "Broken D",
+      "Definition": "Recovered nuts, size equal to or less than 1/4 of a whole nut. Moisture: 2–4%."
+    },
+    {
+      "Type": "Broken 7",
+      "Definition": "Recovered nuts of smaller size (also called 'rain'). Moisture: 2–4%."
+    }
+  ],
+  "Contact": {
+    "Address": "Av. Atanacio Jordan, Barrio Pueblo Nuevo No. 222",
+    "Phones": ["+591 71117777", "+591 74726203"]
+  },
+  "OrganizationalStructure": {
+    "BoardOfDirectors": [
+      "Administrative Manager",
+      "Production Manager",
+      "Collection Management",
+      "Deputy Manager"
+    ],
+    "MainDepartments": {
+      "Accounting": [
+        "Cost/Expense Accounting",
+        "Revenue Accounting",
+        "Human Resources"
+      ],
+      "Production": [
+        "Raw Material",
+        "Cylinder",
+        "Pre-cooking",
+        "White Canvas",
+        "Shelling/Trimming",
+        "Oven",
+        "Sorting",
+        "Maintenance",
+        "Monitoring and Control"
+      ],
+      "QualityManagement": ""
+    }
+  }
+}
