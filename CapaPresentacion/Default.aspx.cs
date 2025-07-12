@@ -33,7 +33,7 @@ namespace CapaPresentacion
             }
             catch (Exception)
             {
-                return "12 Tu pregunta está fuera de nuestro modelo. Intentá con otra o reformulá tu consulta.";
+                return "Tu pregunta está fuera de nuestro modelo. Intentá con otra o reformulá tu consulta.";
             }
         }
 
