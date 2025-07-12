@@ -6,13 +6,13 @@ using System.Text;
 using System.IO;
 using System.Net.Http;
 using Newtonsoft.Json;
+using System.Configuration;
 
 namespace CapaPresentacion
 {
 	public class Utilidadesj
 	{
-        private const string OpenAIApiKey = "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"; // Centralización de la API Key
-
+        private static readonly string OpenAIApiKey = ConfigurationManager.AppSettings["OpenAIApiKey"];
 
         #region "PATRON SINGLETON"
         public static Utilidadesj _instancia = null;
